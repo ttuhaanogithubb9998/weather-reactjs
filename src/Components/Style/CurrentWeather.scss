@@ -1,0 +1,50 @@
+.them1 {
+  .current-weather-title {
+    color: rgb(27, 27, 107);
+  }
+  box-shadow:0 2px 3px rgb(24, 22, 22);
+  color: rgb(245, 245, 245);
+  background-color: rgb(97, 223, 185);
+}
+.them2 {
+  .current-weather-title {
+    color: rgb(0, 255, 255);
+  }
+  box-shadow: 0 2px 3px rgb(248, 245, 245);
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 105, 105);
+}
+.current-weather {
+  box-sizing: border-box;
+  padding: 15px;
+  justify-content: space-between;
+  font-family: arial, sans-serif;
+  align-items: center;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  &-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -36px;
+    margin-top: 12px;
+  }
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &-temp {
+    font-size: 30px;
+  }
+  &-description {
+    text-transform: capitalize;
+  }
+  &__feels-like {
+    font-size: 12px;
+    text-align: right;
+  }
+  &__icon {
+    width: 100%;
+  }
+}

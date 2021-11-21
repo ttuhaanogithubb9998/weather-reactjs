@@ -1,0 +1,39 @@
+.by-location {
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  &__button,
+  &__input {
+    background: transparent;
+    border: 1px solid #fff;
+  }
+  &__input {
+    min-width: 50px;
+    outline: none !important;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+
+    &_lat,
+    &_lon {
+      min-width: 50px;
+      padding: 5px;
+      outline: none !important;
+      border: none;
+      background: transparent;
+      flex-grow: 1;
+    }
+    &_lon{
+        border-left : 1px solid #fff
+    }
+  }
+  &__button {
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  &__button:hover {
+    padding-bottom: 3px;
+  }
+}
